@@ -3,7 +3,7 @@ function Header() {
         <>
             <div className=" flex shadow justify-between  h-24 items-center  p-2 rounded-bl-[60px] rounded-br-[60px]">
                 <div>
-                    <img src="https://img.magnific.com/free-vector/taxi-service-logo-graphic-design_24908-54866.jpg?semt=ais_hybrid&w=740&q=80" className="h-[70px] w-48 ml-10" />
+                    <img src="https://img.magnific.com/free-vector/taxi-service-logo-graphic-design_24908-54866.jpg?semt=ais_hybrid&w=740&q=80"  className="h-[70px] w-48 ml-10" alt="Image Description"/>
                 </div>
                 <div>
                     <ul className="flex gap-6 text-green-500 font-bold text-lg cursor-pointer">
