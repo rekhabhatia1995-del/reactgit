@@ -1,8 +1,8 @@
 function LoginSection() {
   return (
-    <div className="text-white px-2">
-      <div className="rounded-2xl border border-white/20 bg-black/20 backdrop-blur p-7">
-        <h3 className="text-3xl font-extrabold leading-tight">
+    <div className="text-white px-0 md:px-2">
+      <div className="rounded-2xl border border-white/20 bg-black/20 backdrop-blur p-5 sm:p-7">
+        <h3 className="text-2xl sm:text-3xl font-extrabold leading-tight">
           Why choose <span className="text-cyan-200">Happy Easy Rides</span>?
         </h3>
         <p className="mt-3 text-white/90 text-sm md:text-base">
@@ -52,7 +52,9 @@ function LoginSection() {
         </div>
 
         <div className="mt-7">
-          <div className="text-white/90 text-sm">Tip: Use your email & password to continue.</div>
+          <div className="text-white/90 text-sm">
+            Tip: Use your email & password to continue.
+          </div>
         </div>
       </div>
     </div>
@@ -60,4 +62,5 @@ function LoginSection() {
 }
 
 export default LoginSection;
+
 

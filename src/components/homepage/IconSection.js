@@ -5,8 +5,8 @@ import { FaApple, FaGooglePlay } from "react-icons/fa";
 function IconSection () {
     return (
         <>
-        <section className="w-[1100px] bg-pink-100 py-16 px-6 h-96 rounded-lg items-center flex ml-50 mb-8 ">
-      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center">
+        <section className="w-full bg-pink-100 py-12 px-4 sm:px-6 rounded-lg items-center flex mb-8">
+      <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-10 items-center min-h-[360px] lg:min-h-96">
         
         {/* Left Side */}
         <div>
@@ -27,7 +27,7 @@ function IconSection () {
           </div>
 
           <div>
-          <h1 className="text-2xl font-bold leading-snug text-gray-800 mb-2">
+          <h1 className="text-2xl sm:text-3xl font-bold leading-snug text-gray-800 mb-2">
             On Google Play <br />
             Store & App Store
           </h1>
@@ -37,7 +37,7 @@ function IconSection () {
           <div className="flex flex-wrap gap-5 mb-2">
             
             {/* Apple Store */}
-            <button className="flex items-center gap-4 bg-slate-700 hover:bg-slate-800 text-white px-6 py-4 rounded-2xl transition duration-300">
+            <button className="flex items-center gap-4 bg-slate-700 hover:bg-slate-800 text-white px-4 sm:px-6 py-4 rounded-2xl transition duration-300">
               <FaApple className="text-4xl" />
               <div className="text-left">
                 <p className="text-sm">Download on the</p>
@@ -46,7 +46,7 @@ function IconSection () {
             </button>
 
             {/* Google Play */}
-            <button className="flex items-center gap-4 bg-slate-700 hover:bg-slate-800 text-white px-6 py-4 rounded-2xl transition duration-300">
+            <button className="flex items-center gap-4 bg-slate-700 hover:bg-slate-800 text-white px-4 sm:px-6 py-4 rounded-2xl transition duration-300">
               <FaGooglePlay className="text-4xl" />
               <div className="text-left">
                 <p className="text-sm">Get it on</p>
@@ -69,7 +69,7 @@ function IconSection () {
           <img
             src="https://happyeasyrides.com/assets/v2/images/mainplaystore.png"
             alt="Mobile App"
-            className="w-full  max-w-md rounded-3xl shadow-xl"
+            className="w-full max-w-md rounded-3xl shadow-xl"
           />
         </div>
       </div>
@@ -79,3 +79,4 @@ function IconSection () {
     )
 }
 export default IconSection;
+

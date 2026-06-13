@@ -2,29 +2,25 @@ function HeroSection() {
   return (
     <section
       className="relative w-full overflow-hidden mt-4"
-      style={{
-        minHeight: "520px",
-      }}
     >
-    
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage:  "url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80' )",
+          backgroundImage:
+            "url('https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=80')",
         }}
       />
 
-      
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
 
-      
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex items-center">
+      {/* Responsive height */}
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-[520px] sm:h-[540px] md:h-[560px] flex items-center">
         <div className="w-full">
           <p className="inline-flex items-center gap-2 text-white/90 bg-white/10 border border-white/20 rounded-full px-4 py-2 text-sm font-semibold">
             Happy Easy Rides
           </p>
 
-          <h1 className="mt-5 text-white font-extrabold leading-tight text-4xl sm:text-5xl">
+          <h1 className="mt-5 text-white font-extrabold leading-tight text-3xl sm:text-4xl md:text-5xl">
             Ride Comfortably. <br /> Reach Faster.
           </h1>
 

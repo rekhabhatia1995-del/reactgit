@@ -56,7 +56,7 @@ function CustomerBlog() {
   return (
     <section className="w-full bg-white py-14 px-4 md:px-10">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center">
+        <div className="text-center px-1">
           <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">
             Customer Stories
           </h2>
@@ -101,7 +101,7 @@ function CustomerBlog() {
           <div className="lg:col-span-2">
             <article className="rounded-3xl overflow-hidden border border-gray-100 shadow-sm bg-white">
               <div className="relative">
-                <img src={blogs[active].image} alt={blogs[active].title} className="w-full h-72 object-cover" />
+                <img src={blogs[active].image} alt={blogs[active].title} className="w-full h-56 sm:h-64 lg:h-72 object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
                 <div className="absolute left-6 bottom-6 right-6">
                   <div className="flex flex-wrap items-center gap-3">

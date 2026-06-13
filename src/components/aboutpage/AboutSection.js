@@ -47,7 +47,7 @@ function AboutSection() {
           <div className="relative flex justify-center items-center">
             
             {/* Main Image */}
-            <div className="w-[380px] h-[500px] rounded-t-full overflow-hidden shadow-2xl">
+            <div className="w-full max-w-[340px] sm:max-w-[380px] h-[420px] sm:h-[500px] rounded-t-full overflow-hidden shadow-2xl">
               <img
                 src="https://happyeasyrides.com/assets/v2/images/Groups-rights.png"
                 alt="Car"
@@ -58,9 +58,9 @@ function AboutSection() {
            
 
             {/* Decorations */}
-            <div className="absolute top-8 left-10 text-5xl">🎈</div>
-            <div className="absolute top-16 right-8 text-4xl">🎈</div>
-            <div className="absolute bottom-0 right-10 text-6xl">
+            <div className="hidden sm:block absolute top-8 left-10 text-5xl">🎈</div>
+            <div className="hidden sm:block absolute top-16 right-8 text-4xl">🎈</div>
+            <div className="hidden sm:block absolute bottom-0 right-10 text-6xl">
               🚕
             </div>
           </div>

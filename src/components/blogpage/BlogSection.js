@@ -67,7 +67,7 @@ function BlogSection() {
               key={b.title}
               className="group overflow-hidden rounded-3xl border border-gray-100 shadow-sm bg-white"
             >
-              <div className="relative h-48">
+              <div className="relative h-40 sm:h-48 md:h-56">
                 <img
                   src={b.imageUrl}
                   alt={b.title}
